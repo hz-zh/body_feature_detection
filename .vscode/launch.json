@@ -1,0 +1,18 @@
+// launch.json
+{
+   "version": "0.2.0",
+   "configurations": [
+       {
+           "name": "(lldb) Debugger",
+           "type": "cppdbg",
+           "request": "launch",
+           "program": "/Users/henryzelenak/opencv/simple_demo/build/simple-demo",
+           "args": ["/Users/henryzelenak/opencv/simple_demo/build/Henryzelenak.JPG"],
+           "stopAtEntry": true,
+           "cwd": "${workspaceFolder}",
+           "environment": [],
+           "externalConsole": true,
+           "MIMode": "lldb"
+       }
+   ]
+}
