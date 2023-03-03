@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/Users/henryzelenak/opencv/detect_eyes/build",
-  "command": "/usr/bin/clang++  -isystem /Users/henryzelenak/opencv/install/include/opencv4 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -std=gnu++14 -o CMakeFiles/detect_eyes.dir/main.cpp.o -c /Users/henryzelenak/opencv/detect_eyes/main.cpp",
-  "file": "/Users/henryzelenak/opencv/detect_eyes/main.cpp"
+  "directory": "/Users/henryzelenak/opencv/body_feature_detection/build",
+  "command": "/usr/bin/clang++  -isystem /Users/henryzelenak/opencv/install/include/opencv4 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -std=gnu++14 -o CMakeFiles/body_feature_detection.dir/main.cpp.o -c /Users/henryzelenak/opencv/body_feature_detection/main.cpp",
+  "file": "/Users/henryzelenak/opencv/body_feature_detection/main.cpp"
 }
 ]

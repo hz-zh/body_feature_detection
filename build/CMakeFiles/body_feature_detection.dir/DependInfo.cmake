@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/henryzelenak/opencv/detect_eyes/main.cpp" "CMakeFiles/detect_eyes.dir/main.cpp.o" "gcc" "CMakeFiles/detect_eyes.dir/main.cpp.o.d"
+  "/Users/henryzelenak/opencv/body_feature_detection/main.cpp" "CMakeFiles/body_feature_detection.dir/main.cpp.o" "gcc" "CMakeFiles/body_feature_detection.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

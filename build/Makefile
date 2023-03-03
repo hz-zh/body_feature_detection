@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/henryzelenak/opencv/detect_eyes
+CMAKE_SOURCE_DIR = /Users/henryzelenak/opencv/body_feature_detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/henryzelenak/opencv/detect_eyes/build
+CMAKE_BINARY_DIR = /Users/henryzelenak/opencv/body_feature_detection/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henryzelenak/opencv/detect_eyes/build/CMakeFiles /Users/henryzelenak/opencv/detect_eyes/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henryzelenak/opencv/body_feature_detection/build/CMakeFiles /Users/henryzelenak/opencv/body_feature_detection/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henryzelenak/opencv/detect_eyes/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/henryzelenak/opencv/body_feature_detection/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named detect_eyes
+# Target rules for targets named body_feature_detection
 
 # Build rule for target.
-detect_eyes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 detect_eyes
-.PHONY : detect_eyes
+body_feature_detection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 body_feature_detection
+.PHONY : body_feature_detection
 
 # fast build rule for target.
-detect_eyes/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect_eyes.dir/build.make CMakeFiles/detect_eyes.dir/build
-.PHONY : detect_eyes/fast
+body_feature_detection/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/body_feature_detection.dir/build.make CMakeFiles/body_feature_detection.dir/build
+.PHONY : body_feature_detection/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect_eyes.dir/build.make CMakeFiles/detect_eyes.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/body_feature_detection.dir/build.make CMakeFiles/body_feature_detection.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect_eyes.dir/build.make CMakeFiles/detect_eyes.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/body_feature_detection.dir/build.make CMakeFiles/body_feature_detection.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/detect_eyes.dir/build.make CMakeFiles/detect_eyes.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/body_feature_detection.dir/build.make CMakeFiles/body_feature_detection.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... detect_eyes"
+	@echo "... body_feature_detection"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
